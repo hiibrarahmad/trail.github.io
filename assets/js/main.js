@@ -36,6 +36,8 @@ window.addEventListener('load', () => {
                 loader.classList.add('hidden');
                 isLoading = false;
                 initAnimations();
+                initScrollAnimations();   // ✅ Add this
+                animateCounters();        // ✅ Also recommended
             }, 500);
         }
     }, 100);
